@@ -1,0 +1,225 @@
+<?php
+
+acf_add_local_field_group(array (
+  'key' => 'group_58d98e6dc7b37',
+  'title' => '250 - Media Block',
+  'fields' => array (
+    array (
+      'key' => 'field_58dbf050b2c35',
+      'label' => 'Media Direction',
+      'name' => 'media-block_direction',
+      'type' => 'select',
+      'instructions' => '',
+      'required' => 0,
+      'conditional_logic' => 0,
+      'wrapper' => array (
+        'width' => '20',
+        'class' => 'media-block media-block__direction',
+        'id' => '',
+      ),
+      'choices' => array (
+        'ltr' => 'Left to Right',
+        'rtl' => 'RIght to Left',
+      ),
+      'default_value' => array (
+      ),
+      'allow_null' => 0,
+      'multiple' => 0,
+      'ui' => 0,
+      'ajax' => 0,
+      'return_format' => 'value',
+      'placeholder' => '',
+    ),
+    array (
+      'key' => 'field_58dbef74b2c34',
+      'label' => 'Headline',
+      'name' => 'media-block_headline_ltr',
+      'type' => 'text',
+      'instructions' => '',
+      'required' => 0,
+      'conditional_logic' => array (
+        array (
+          array (
+            'field' => 'field_58dbf050b2c35',
+            'operator' => '==',
+            'value' => 'ltr',
+          ),
+        ),
+      ),
+      'wrapper' => array (
+        'width' => '75',
+        'class' => 'media-block media-block__headline--ltr',
+        'id' => '',
+      ),
+      'default_value' => '',
+      'placeholder' => '',
+      'prepend' => '',
+      'append' => '',
+      'maxlength' => '',
+    ),
+    array (
+      'key' => 'field_58dbf213b2c36',
+      'label' => 'Headline',
+      'name' => 'media-block_headline_rtl',
+      'type' => 'text',
+      'instructions' => '',
+      'required' => 0,
+      'conditional_logic' => array (
+        array (
+          array (
+            'field' => 'field_58dbf050b2c35',
+            'operator' => '==',
+            'value' => 'rtl',
+          ),
+        ),
+      ),
+      'wrapper' => array (
+        'width' => '75',
+        'class' => 'media-block media-block__headline--rtl',
+        'id' => '',
+      ),
+      'default_value' => '',
+      'placeholder' => '',
+      'prepend' => '',
+      'append' => '',
+      'maxlength' => '',
+    ),
+    array (
+      'key' => 'field_58dbf240b2c37',
+      'label' => 'Content',
+      'name' => 'media-block_content_ltr',
+      'type' => 'wysiwyg',
+      'instructions' => '',
+      'required' => 0,
+      'conditional_logic' => array (
+        array (
+          array (
+            'field' => 'field_58dbf050b2c35',
+            'operator' => '==',
+            'value' => 'ltr',
+          ),
+        ),
+      ),
+      'wrapper' => array (
+        'width' => '65',
+        'class' => 'media-block media-block__content--ltr',
+        'id' => '',
+      ),
+      'default_value' => '',
+      'tabs' => 'all',
+      'toolbar' => 'full',
+      'media_upload' => 0,
+      'delay' => 0,
+    ),
+    array (
+      'key' => 'field_58dbf2b2b2c38',
+      'label' => 'Simulator Photo',
+      'name' => 'media-block_photo_ltr',
+      'type' => 'image',
+      'instructions' => '',
+      'required' => 0,
+      'conditional_logic' => array (
+        array (
+          array (
+            'field' => 'field_58dbf050b2c35',
+            'operator' => '==',
+            'value' => 'ltr',
+          ),
+        ),
+      ),
+      'wrapper' => array (
+        'width' => '35',
+        'class' => 'media-block media-block__photo--ltr',
+        'id' => '',
+      ),
+      'return_format' => 'array',
+      'preview_size' => 'thumbnail',
+      'library' => 'all',
+      'min_width' => '',
+      'min_height' => '',
+      'min_size' => '',
+      'max_width' => '',
+      'max_height' => '',
+      'max_size' => '',
+      'mime_types' => '',
+    ),
+    array (
+      'key' => 'field_58dbf32ab2c3a',
+      'label' => 'Simulator Photo',
+      'name' => 'media-block_photo_rtl',
+      'type' => 'image',
+      'instructions' => '',
+      'required' => 0,
+      'conditional_logic' => array (
+        array (
+          array (
+            'field' => 'field_58dbf050b2c35',
+            'operator' => '==',
+            'value' => 'rtl',
+          ),
+        ),
+      ),
+      'wrapper' => array (
+        'width' => '35',
+        'class' => 'media-block media-block__photo--rtl',
+        'id' => '',
+      ),
+      'return_format' => 'array',
+      'preview_size' => 'thumbnail',
+      'library' => 'all',
+      'min_width' => '',
+      'min_height' => '',
+      'min_size' => '',
+      'max_width' => '',
+      'max_height' => '',
+      'max_size' => '',
+      'mime_types' => '',
+    ),
+    array (
+      'key' => 'field_58dbf322b2c39',
+      'label' => 'Content',
+      'name' => 'media-block_content_rtl',
+      'type' => 'wysiwyg',
+      'instructions' => '',
+      'required' => 0,
+      'conditional_logic' => array (
+        array (
+          array (
+            'field' => 'field_58dbf050b2c35',
+            'operator' => '==',
+            'value' => 'rtl',
+          ),
+        ),
+      ),
+      'wrapper' => array (
+        'width' => '65',
+        'class' => 'media-block media-block__content--rtl',
+        'id' => '',
+      ),
+      'default_value' => '',
+      'tabs' => 'all',
+      'toolbar' => 'full',
+      'media_upload' => 0,
+      'delay' => 0,
+    ),
+  ),
+  'location' => array (
+    array (
+      array (
+        'param' => 'post_type',
+        'operator' => '==',
+        'value' => 'page',
+      ),
+    ),
+  ),
+  'menu_order' => 0,
+  'position' => 'normal',
+  'style' => 'default',
+  'label_placement' => 'top',
+  'instruction_placement' => 'label',
+  'hide_on_screen' => '',
+  'active' => 0,
+  'description' => '',
+));
+
+?>

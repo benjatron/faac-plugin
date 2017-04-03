@@ -88,9 +88,6 @@ if( function_exists('acf_add_options_page') ) {
 
 if( function_exists('acf_add_local_field_group') ):
 
-// Adds field groups for testimonials
-  include_once('field-groups/testimonials.php');
-
 // Adds field groups for theme settings
   include_once('field-groups/features.php');
   include_once('field-groups/divisions.php');

@@ -177,9 +177,9 @@ acf_add_local_field_group(array (
   'location' => array (
     array (
       array (
-        'param' => 'page_template',
+        'param' => 'page_type',
         'operator' => '==',
-        'value' => 'template-simulators-parent.php',
+        'value' => 'front_page',
       ),
     ),
   ),

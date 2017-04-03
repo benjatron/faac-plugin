@@ -17,20 +17,20 @@ License URI: https://www.gnu.org/licenses/gpl.html
 
 
 
-
-// Adds the Testimonials option page via ACF
-if ( function_exists('acf_add_options_page') ) {
-  
-  acf_add_options_page(array(
-    'page_title'  => 'Testimonials',
-    'menu_title'  => 'Testimonials',
-    'menu_slug'   => 'faac-testimonials',
-    'capability'  => 'edit_posts',
-    'icon_url'    => 'dashicons-thumbs-up',
-    'position'    => '25'
-  ));
-  
+// Registers the custom taxonomies
+if ( ! function_exists( 'client_taxonomy' ) ) {
+  include_once('taxonomies/client.php');
 }
+
+
+
+// Registers the custom post types
+
+
+
+
+// Adds the custom fields for the testimonial post type
+
 
 
 

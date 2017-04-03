@@ -26,7 +26,7 @@ if ( ! function_exists( 'client_taxonomy' ) ) {
 
 // Registers the custom post types
 if ( ! function_exists('testimonial_post_type') ) {
-  include_once('post-types/testimoinal.php');
+  include_once('post-types/testimonial.php');
 }
 
 

@@ -159,7 +159,7 @@ acf_add_local_field_group(array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-solutions-child.php',
+        'value' => 'template-content-general.php',
       ),
     ),
   ),

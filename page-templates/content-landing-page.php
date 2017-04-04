@@ -201,7 +201,7 @@ acf_add_local_field_group(array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-simulators-child.php',
+        'value' => 'template-content-landing.php',
       ),
     ),
   ),

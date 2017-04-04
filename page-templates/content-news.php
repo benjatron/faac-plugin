@@ -7,7 +7,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e300d20a4da',
       'label' => 'Slider',
-      'name' => 'content-general_slider',
+      'name' => 'content-news_slider',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -28,7 +28,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e300d20a5a1',
       'label' => 'Linked Photos',
-      'name' => 'content-general_linked-photos',
+      'name' => 'content-news_linked-photos',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -49,7 +49,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e300d20a5e5',
       'label' => 'Categories',
-      'name' => 'content-general_categories',
+      'name' => 'content-news_categories',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -70,7 +70,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e300d20a620',
       'label' => 'Call-to-Action',
-      'name' => 'content-general_cta',
+      'name' => 'content-news_cta',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -91,7 +91,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e300d20a64e',
       'label' => 'Footer',
-      'name' => 'solutions-child_footer',
+      'name' => 'content-news_footer',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -117,7 +117,7 @@ acf_add_local_field_group(array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-solutions-child.php',
+        'value' => 'template-content-news.php',
       ),
     ),
   ),

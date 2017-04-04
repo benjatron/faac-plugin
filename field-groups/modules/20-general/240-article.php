@@ -7,7 +7,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dab4b18836e',
       'label' => 'Headline',
-      'name' => 'aritcle_headline',
+      'name' => 'article_headline',
       'type' => 'text',
       'instructions' => '',
       'required' => 0,
@@ -26,7 +26,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dab4f38836f',
       'label' => 'Article Body',
-      'name' => 'aritcle_body',
+      'name' => 'article_body',
       'type' => 'wysiwyg',
       'instructions' => '',
       'required' => 0,

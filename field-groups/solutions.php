@@ -22,7 +22,7 @@ acf_add_local_field_group(array (
     ),
     array (
       'key' => 'field_58d13f87b28b8',
-      'label' => 'Related Solution Photo',
+      'label' => 'Related Solution Links Background',
       'name' => 'solution_related_photo',
       'type' => 'image',
       'instructions' => '',
@@ -46,7 +46,7 @@ acf_add_local_field_group(array (
     ),
     array (
       'key' => 'field_58d13f87b2997',
-      'label' => 'Solution Category Photo',
+      'label' => 'Solution Category Promotion Background',
       'name' => 'solution_category_photo',
       'type' => 'image',
       'instructions' => '',

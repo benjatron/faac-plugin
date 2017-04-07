@@ -22,7 +22,7 @@ acf_add_local_field_group(array (
     ),
     array (
       'key' => 'field_58d138e8bef70',
-      'label' => 'Related Simulator Photo',
+      'label' => 'Related Simulator Links Background',
       'name' => 'simulator_related_photo',
       'type' => 'image',
       'instructions' => '',
@@ -46,7 +46,7 @@ acf_add_local_field_group(array (
     ),
     array (
       'key' => 'field_58d13924bef71',
-      'label' => 'Simulator Category Photo',
+      'label' => 'Simulator Category Promotion Background',
       'name' => 'simulator_category_photo',
       'type' => 'image',
       'instructions' => '',

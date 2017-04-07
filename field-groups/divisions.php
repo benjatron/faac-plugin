@@ -2,7 +2,7 @@
 
 acf_add_local_field_group(array (
   'key' => 'group_58e7e171e26b3',
-  'title' => 'Divisions',
+  'title' => 'Theme Settings - Divisions',
   'fields' => array (
     array (
       'key' => 'field_58e7e2a190e98',
@@ -674,7 +674,7 @@ acf_add_local_field_group(array (
       array (
         'param' => 'options_page',
         'operator' => '==',
-        'value' => '',
+        'value' => 'acf-options-divisions',
       ),
     ),
   ),
@@ -684,7 +684,7 @@ acf_add_local_field_group(array (
   'label_placement' => 'left',
   'instruction_placement' => 'label',
   'hide_on_screen' => '',
-  'active' => 0,
+  'active' => 1,
   'description' => '',
 ));
 

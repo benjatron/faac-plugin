@@ -116,23 +116,11 @@ if( function_exists('acf_add_options_page') ) {
     ));
 
       acf_add_options_sub_page(array(
-      'page_title'  => 'Simulators',
-      'menu_title'  => 'Simulators',
+      'page_title'  => 'Categories',
+      'menu_title'  => 'Categories',
       'parent_slug' => 'faac-theme-settings',
     ));
 
-      acf_add_options_sub_page(array(
-      'page_title'  => 'Solutions',
-      'menu_title'  => 'Solutions',
-      'parent_slug' => 'faac-theme-settings',
-    ));
-
-    //   acf_add_options_sub_page(array(
-    //   'page_title'  => 'Vehicles',
-    //   'menu_title'  => 'Vehicles',
-    //   'parent_slug' => 'faac-theme-settings',
-    // ));
-  
   }
 
 }
@@ -145,9 +133,7 @@ if( function_exists('acf_add_local_field_group') ):
 // Adds field groups for theme settings
   include_once('field-groups/features.php');
   include_once('field-groups/divisions.php');
-  include_once('field-groups/simulators.php');
-  include_once('field-groups/solutions.php');
-  include_once('field-groups/vehicles.php');
+  include_once('field-groups/categories.php');
 
 
 // Adds field groups for design modules

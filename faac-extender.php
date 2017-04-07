@@ -3,7 +3,7 @@
 Plugin Name: FAAC Extended
 Plugin URI: http://designfwd.com/
 Description: This plugin adds functionality required to fully take advantage of the FAAC Incorporated theme.
-Version: 0.1
+Version: 0.2
 Author: FWD Creative, LLC
 Author URI: http://designfwd.com/
 
@@ -90,47 +90,51 @@ endif;
 // Adds theme settings pages via ACF
 
 if( function_exists('acf_add_options_page') ) {
+
+  if( get_current_blog_id() == 1 ) {
   
-  acf_add_options_page(array(
-    'page_title'  => 'FAAC Theme Default Settings',
-    'menu_title'  => 'FAAC Theme Default Settings',
-    'menu_slug'   => 'faac-theme-settings',
-    'capability'  => 'edit_posts',
-    'icon_url'    => 'dashicons-desktop',
-    'position'    => 40,
-    'redirect'    => true
-  ));
+    acf_add_options_page(array(
+      'page_title'  => 'FAAC Theme Default Settings',
+      'menu_title'  => 'FAAC Theme Default Settings',
+      'menu_slug'   => 'faac-theme-settings',
+      'capability'  => 'edit_posts',
+      'icon_url'    => 'dashicons-desktop',
+      'position'    => 40,
+      'redirect'    => true
+    ));
 
-    acf_add_options_sub_page(array(
-    'page_title'  => 'Features',
-    'menu_title'  => 'Features',
-    'parent_slug' => 'faac-theme-settings',
-  ));
+      acf_add_options_sub_page(array(
+      'page_title'  => 'Features',
+      'menu_title'  => 'Features',
+      'parent_slug' => 'faac-theme-settings',
+    ));
 
-    acf_add_options_sub_page(array(
-    'page_title'  => 'Divisions',
-    'menu_title'  => 'Divisions',
-    'parent_slug' => 'faac-theme-settings',
-  ));
+      acf_add_options_sub_page(array(
+      'page_title'  => 'Divisions',
+      'menu_title'  => 'Divisions',
+      'parent_slug' => 'faac-theme-settings',
+    ));
 
-    acf_add_options_sub_page(array(
-    'page_title'  => 'Simulators',
-    'menu_title'  => 'Simulators',
-    'parent_slug' => 'faac-theme-settings',
-  ));
+      acf_add_options_sub_page(array(
+      'page_title'  => 'Simulators',
+      'menu_title'  => 'Simulators',
+      'parent_slug' => 'faac-theme-settings',
+    ));
 
-    acf_add_options_sub_page(array(
-    'page_title'  => 'Solutions',
-    'menu_title'  => 'Solutions',
-    'parent_slug' => 'faac-theme-settings',
-  ));
+      acf_add_options_sub_page(array(
+      'page_title'  => 'Solutions',
+      'menu_title'  => 'Solutions',
+      'parent_slug' => 'faac-theme-settings',
+    ));
 
-  //   acf_add_options_sub_page(array(
-  //   'page_title'  => 'Vehicles',
-  //   'menu_title'  => 'Vehicles',
-  //   'parent_slug' => 'faac-theme-settings',
-  // ));
+    //   acf_add_options_sub_page(array(
+    //   'page_title'  => 'Vehicles',
+    //   'menu_title'  => 'Vehicles',
+    //   'parent_slug' => 'faac-theme-settings',
+    // ));
   
+  }
+
 }
 
 

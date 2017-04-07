@@ -1,12 +1,12 @@
 <?php
 
 acf_add_local_field_group(array (
-  'key' => 'group_58d0223c875e6',
+  'key' => 'group_58e7a9b03e6fe',
   'title' => 'Features',
   'fields' => array (
 
-    //Global Settings
-    array (
+    // Global Settings
+   array (
       'key' => 'field_58e7b13526844',
       'label' => 'Global Settings',
       'name' => '',
@@ -327,7 +327,7 @@ acf_add_local_field_group(array (
       'height' => '',
     ),
 
-    // Footer Link Defaults
+    //Footer Link Defaults
     array (
       'key' => 'field_58d023c838526',
       'label' => 'Footer Promotions',
@@ -416,6 +416,7 @@ acf_add_local_field_group(array (
       'return_format' => 'object',
       'ui' => 1,
     ),
+
   ),
   'location' => array (
     array (

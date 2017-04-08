@@ -14,4 +14,10 @@ This plugin adds functionality required to fully take advantage of the FAAC Inco
 Honestly, you probably shouldn\'t be installing this if you don\'t know what you\'re doing. It\'s a custom plugin with no expectation of distribution, so only direct copying of files has been used and tested.
 
 == Changelog ==
+0.4 - Reworked options from the ground up
+
+0.3 - Added Testimonials post type
+
+0.2 - Updated options layout
+
 0.1 - Created the basic outline of the plugin and its functionality.

@@ -34,8 +34,8 @@ if( function_exists('acf_add_options_page') ) :
       'redirect'    => true
     ));
       acf_add_options_sub_page(array(
-        'page_title'  => 'Global Settings',
-        'menu_title'  => 'Global Settings',
+        'page_title'  => 'Theme Defaults',
+        'menu_title'  => 'Theme Defaults',
         'parent_slug' => 'theme-settings',
       ));
       acf_add_options_sub_page(array(

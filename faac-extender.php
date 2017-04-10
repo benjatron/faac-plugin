@@ -21,7 +21,7 @@ License URI: https://www.gnu.org/licenses/gpl.html
 if( function_exists('acf_add_options_page') ) :
 
   if( get_current_blog_id() == 1 ) :
-  // Only adds the settings to the main site on a multisite
+  // Only displays the settings to the main site on a multisite
 
     // Adds the main Theme Settings options page and subpages
     acf_add_options_page(array(
@@ -257,3 +257,43 @@ if( function_exists('acf_add_local_field_group') ) :
   include_once('page-templates/divisions-news.php');
   include_once('page-templates/divisions-category.php');
 endif;
+
+
+/*
+ * #CUSTOM WIDGETS
+  */
+class newsletter_widget extends WP_Widget {
+  function newsletter_widget() {
+  parent::WP_Widget(false, $name = __('Newsletter Signup', 'faac_widget_newsletterSignup') );
+}
+add_action('widgets_init', create_function('', 'return register_widget("newsletter_widget");'));
+
+class masthead_widget extends WP_Widget {
+  function masthead_widget() {
+  parent::WP_Widget(false, $name = __('Brand Masthead', 'faac_widget_masthead') );
+}
+add_action('widgets_init', create_function('', 'return register_widget("masthead_widget");'));
+
+class linkButtons_widget extends WP_Widget {
+  function linkButtons_widget() {
+  parent::WP_Widget(false, $name = __('Link Buttons', 'faac_widget_linkButtons') );
+}
+add_action('widgets_init', create_function('', 'return register_widget("linkButtons_widget");'));
+
+class divisionLogos_widget extends WP_Widget {
+  function divisionLogos_widget() {
+  parent::WP_Widget(false, $name = __('Linked Division Logos', 'faac_widget_divisionLogos') );
+}
+add_action('widgets_init', create_function('', 'return register_widget("divisionLogos_widget");'));
+
+class contactInfo_widget extends WP_Widget {
+  function contactInfo_widget() {
+  parent::WP_Widget(false, $name = __('Contact Information Blocks', 'faac_widget_contactInfo') );
+}
+add_action('widgets_init', create_function('', 'return register_widget("contactInfo_widget");'));
+
+class copyright_widget extends WP_Widget {
+  function copyright_widget() {
+  parent::WP_Widget(false, $name = __('CopyrightInfo', 'faac_widget_copyright') );
+}
+add_action('widgets_init', create_function('', 'return register_widget("copyright_widget");'));

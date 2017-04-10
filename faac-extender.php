@@ -262,36 +262,3 @@ endif;
 /*
  * #CUSTOM WIDGETS
   */
-class newsletter_widget extends WP_Widget {
-  function newsletter_widget() {
-  parent::WP_Widget(false, $name = __('Newsletter Signup', 'faac_widget_newsletterSignup') );
-}
-
-class masthead_widget extends WP_Widget {
-  function masthead_widget() {
-  parent::WP_Widget(false, $name = __('Brand Masthead', 'faac_widget_masthead') );
-}
-
-
-class linkButtons_widget extends WP_Widget {
-  function linkButtons_widget() {
-  parent::WP_Widget(false, $name = __('Link Buttons', 'faac_widget_linkButtons') );
-}
-
-
-class divisionLogos_widget extends WP_Widget {
-  function divisionLogos_widget() {
-  parent::WP_Widget(false, $name = __('Linked Division Logos', 'faac_widget_divisionLogos') );
-}
-
-
-class contactInfo_widget extends WP_Widget {
-  function contactInfo_widget() {
-  parent::WP_Widget(false, $name = __('Contact Information Blocks', 'faac_widget_contactInfo') );
-}
-
-
-class copyright_widget extends WP_Widget {
-  function copyright_widget() {
-  parent::WP_Widget(false, $name = __('CopyrightInfo', 'faac_widget_copyright') );
-}

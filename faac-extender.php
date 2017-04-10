@@ -257,14 +257,3 @@ if( function_exists('acf_add_local_field_group') ) :
   include_once('page-templates/divisions-news.php');
   include_once('page-templates/divisions-category.php');
 endif;
-
-
-/*
- * #CUSTOM WIDGETS
-  */
-include_once('widgets/newsletter-signup.php');
-include_once('widgets/masthead.php');
-include_once('widgets/link-buttons.php');
-include_once('widgets/division-logos.php');
-include_once('widgets/contact-info.php');
-include_once('widgets/copyright-info.php');

@@ -6,7 +6,7 @@ class Newsletter_Signup extends WP_Widget {
   function __construct() {
     parent::__construct(
       'newsletter_signup', // Base ID
-      esc_html__( 'FAAC - Newsletter Signup', 'faac' ), // Name
+      esc_html__( 'FAAC Newsletter', 'faac' ), // Name
       array( 'description' => esc_html__( 'Displays a newsletter signup form', 'faac' ), ) // Args
     );
   }
@@ -24,7 +24,7 @@ class Newsletter_Signup extends WP_Widget {
     if ( ! empty( $instance['title'] ) ) {
       echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ) . $args['after_title'];
     }
-    echo esc_html__( 'Hello, World!', 'faac' );
+    echo esc_html__( 'Newsletter Signup', 'faac' );
     echo $args['after_widget'];
   }
 

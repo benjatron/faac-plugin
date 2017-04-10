@@ -262,3 +262,22 @@ endif;
 /*
  * #CUSTOM WIDGETS
   */
+class Newsletter_Signup extends WP_Widget {
+
+  // Register widget with WordPress.
+  function __construct() {
+    parent::__construct(
+      'newsletter_signup', // Base ID
+      esc_html__( 'Newsletter Signup', 'faac' ), // Name
+      array( 'description' => esc_html__( 'Displays a newsletter signup form', 'faac' ), ) // Args
+    );
+  }
+  //
+  include_once('widgets/newsletter-signup.php');
+
+}
+// Add widget to WordPress
+function register_newsletter_widget() {
+    register_widget( 'Newsletter_Signup' );
+}
+add_action( 'widgets_init', 'register_newsletter_widget' );

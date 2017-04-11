@@ -196,15 +196,13 @@ if( function_exists('acf_add_local_field_group') ) :
 
   // Simulators and solutions
   include_once('modules/30-options/300-category-heading.php');
-  include_once('modules/30-options/310-category-heading_2-up.php');
-  include_once('modules/30-options/320-category-media-block.php');
-  include_once('modules/30-options/330-simulator-solution-categories_2-column.php');
-  include_once('modules/30-options/340-simulator-solution-categories_4-column.php');
-  include_once('modules/30-options/350-simulator-solution-categories_5-column.php');
-  include_once('modules/30-options/360-featured-simulator-solution.php');
-  include_once('modules/30-options/370-category-simulators-solutions_3-column.php');
-  include_once('modules/30-options/380-related-links_2-up.php');
-  include_once('modules/30-options/390-related-links_3-up.php');
+  include_once('modules/30-options/310-category-row.php');
+  include_once('modules/30-options/320-category-detail-block.php');
+  include_once('modules/30-options/330-category-feature-block.php');
+  include_once('modules/30-options/340-featured-simulator-solution.php');
+  include_once('modules/30-options/350-feature-row.php');
+  include_once('modules/30-options/360-related-links-block.php');
+  include_once('modules/30-options/370-category-links-block.php');
 
   // Divisions
   include_once('modules/40-divisions/400-division-summaries_2-column.php');

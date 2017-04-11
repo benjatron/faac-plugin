@@ -153,6 +153,9 @@ if ( ! function_exists( 'client_taxonomy' ) ) :
   include_once('taxonomies/client.php');
 endif;
 
+if ( ! function_exists( 'page_category' ) ) {
+  include_once('taxonomies/categories.php');
+endif;
 
 
 

@@ -2,7 +2,7 @@
 
 acf_add_local_field_group(array (
   'key' => 'group_58da7f863cae9',
-  'title' => '420 - Division Support Block (Recovered)',
+  'title' => '420 - Division Support Block',
   'fields' => array (
     array (
       'key' => 'field_58ecf90dfe23d',

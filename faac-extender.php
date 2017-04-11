@@ -243,7 +243,6 @@ if( function_exists('acf_add_local_field_group') ) :
 
   // Category pages
   include_once('page-templates/category-parent.php');
-  include_once('page-templates/category-child.php');
 
   // Content pages
   include_once('page-templates/content-general.php');

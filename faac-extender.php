@@ -173,6 +173,11 @@ if( function_exists('acf_add_local_field_group') ) :
   include_once('post-types/testimonial-fields.php');
 endif;
 
+// Adds custom simulator description
+if( function_exists('acf_add_local_field_group') ) :
+  include_once('post-types/simulator-fields.php');
+endif;
+
 
 
 

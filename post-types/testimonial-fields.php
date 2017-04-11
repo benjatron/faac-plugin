@@ -1,7 +1,5 @@
 <?php
 
-if( function_exists('acf_add_local_field_group') ):
-
 acf_add_local_field_group(array (
   'key' => 'group_58e29b3c166bc',
   'title' => 'Testimonial Background',
@@ -49,7 +47,5 @@ acf_add_local_field_group(array (
   'active' => 1,
   'description' => '',
 ));
-
-endif;
 
 ?>

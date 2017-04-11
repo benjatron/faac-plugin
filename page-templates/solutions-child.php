@@ -7,7 +7,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58daa223b34eb',
       'label' => 'Basic Slider',
-      'name' => 'solutions-child_slider',
+      'name' => 'solutionsChild_slider',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -28,7 +28,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58daa2fbb34ec',
       'label' => 'Intro Content',
-      'name' => 'solutions-child_intro',
+      'name' => 'solutionsChild_intro',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -49,7 +49,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58daaa3cf5b60',
       'label' => 'Video Playlist',
-      'name' => 'solutions-child_videos',
+      'name' => 'solutionsChild_videos',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -70,7 +70,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58daad00f5b61',
       'label' => 'Solutions Features',
-      'name' => 'solutions-child_features',
+      'name' => 'solutionsChild_features',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -91,7 +91,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dab2fcf5b62',
       'label' => 'Feature Blocks',
-      'name' => 'solutions-child_feature-blocks',
+      'name' => 'solutionsChild_featureBlocks',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -112,7 +112,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dab64717f4d',
       'label' => 'Secondary Content',
-      'name' => 'solutions-child_secondary-content',
+      'name' => 'solutionsChild_secondaryContent',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -133,7 +133,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dabae628258',
       'label' => 'Documentation Links',
-      'name' => 'solutions-child_documentation-links',
+      'name' => 'solutionsChild_documentation',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -154,7 +154,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dac450b0e34',
       'label' => 'Main Simulator',
-      'name' => 'solutions-child_main-simulator',
+      'name' => 'solutionsChild_simulator',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -175,7 +175,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e2fb8a7db4b',
       'label' => 'Related Links',
-      'name' => 'solutions-child_related-links',
+      'name' => 'solutionsChild_relatedLinks',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -186,7 +186,7 @@ acf_add_local_field_group(array (
         'id' => '',
       ),
       'clone' => array (
-        0 => 'group_58da7ebcdc736',
+        0 => 'group_58da7eb874581',
       ),
       'display' => 'group',
       'layout' => 'block',
@@ -195,8 +195,8 @@ acf_add_local_field_group(array (
     ),
     array (
       'key' => 'field_58e2fbc47db4c',
-      'label' => 'Category Linked Photos',
-      'name' => 'solutions-child_category-links',
+      'label' => 'Category Headings',
+      'name' => 'solutionsChild_categoryHeadings',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -207,7 +207,7 @@ acf_add_local_field_group(array (
         'id' => '',
       ),
       'clone' => array (
-        0 => 'group_58da7eaa88e52',
+        0 => 'group_58da7eba98e33',
       ),
       'display' => 'group',
       'layout' => 'block',
@@ -217,7 +217,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e2fbf57db4d',
       'label' => 'Division Promo',
-      'name' => 'solutions-child_division-promo',
+      'name' => 'solutionsChild_divisionPromo',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -235,36 +235,13 @@ acf_add_local_field_group(array (
       'prefix_label' => 0,
       'prefix_name' => 1,
     ),
-    array (
-      'key' => 'field_58e2fc507db4e',
-      'label' => 'Footer',
-      'name' => 'solutions-child_footer',
-      'type' => 'clone',
-      'instructions' => '',
-      'required' => 0,
-      'conditional_logic' => 0,
-      'wrapper' => array (
-        'width' => '',
-        'class' => '',
-        'id' => '',
-      ),
-      'clone' => array (
-        0 => 'group_58da816050824',
-        1 => 'group_58da81605c4c2',
-        2 => 'group_58da8160620c4',
-      ),
-      'display' => 'group',
-      'layout' => 'block',
-      'prefix_label' => 0,
-      'prefix_name' => 1,
-    ),
   ),
   'location' => array (
     array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-solutions-child.php',
+        'value' => 'template-solution-child.php',
       ),
     ),
   ),

@@ -7,7 +7,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e399fbd2cd3',
       'label' => 'Basic Slider',
-      'name' => 'division-news_slider',
+      'name' => 'divisionNews_slider',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -28,7 +28,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e399fbd2e1d',
       'label' => 'Featured Division Links',
-      'name' => 'division-news_features',
+      'name' => 'divisionNews_features',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -46,37 +46,13 @@ acf_add_local_field_group(array (
       'prefix_label' => 0,
       'prefix_name' => 1,
     ),
-    array (
-      'key' => 'field_58e399fbd2e6c',
-      'label' => 'Footer',
-      'name' => 'division-news_footer',
-      'type' => 'clone',
-      'instructions' => '',
-      'required' => 0,
-      'conditional_logic' => 0,
-      'wrapper' => array (
-        'width' => '',
-        'class' => '',
-        'id' => '',
-      ),
-      'clone' => array (
-        0 => 'group_58da816050824',
-        1 => 'group_58da81605c4c2',
-        2 => 'group_58da813eaaaad',
-        3 => 'group_58da8160620c4',
-      ),
-      'display' => 'group',
-      'layout' => 'block',
-      'prefix_label' => 0,
-      'prefix_name' => 1,
-    ),
   ),
   'location' => array (
     array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-divisions-news.php',
+        'value' => 'template-division-news.php',
       ),
     ),
   ),

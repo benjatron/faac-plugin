@@ -7,7 +7,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dbe6d78f2f4',
       'label' => 'Slider',
-      'name' => 'simulators-parent_slider',
+      'name' => 'simulatorsParent_slider',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -28,7 +28,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dbe6d78f357',
       'label' => 'Intro Content',
-      'name' => 'simulators-parent_intro',
+      'name' => 'simulatorsParent_intro',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -49,7 +49,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e2af8ff0c65',
       'label' => 'Training Simulators',
-      'name' => 'simulators-parent_training',
+      'name' => 'simulatorsParent_training',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -61,8 +61,8 @@ acf_add_local_field_group(array (
       ),
       'clone' => array (
         0 => 'group_58da7ea1e866f',
-        1 => 'group_58da7eb222f43',
-        2 => 'group_58d32e8d672b3',
+        1 => 'group_58da7ead4190d',
+        2 => 'group_58ece52cbc9ac',
       ),
       'display' => 'group',
       'layout' => 'block',
@@ -72,7 +72,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e2b07bf0c66',
       'label' => 'Research Simulators',
-      'name' => 'simulators-parent_research',
+      'name' => 'simulatorsParent_research',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -94,7 +94,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e2b099f0c67',
       'label' => 'Featured Simulator',
-      'name' => 'simulators-parent_feature',
+      'name' => 'simulatorsParent_feature',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -105,29 +105,7 @@ acf_add_local_field_group(array (
         'id' => '',
       ),
       'clone' => array (
-        0 => 'group_58da7eb6784b3',
-      ),
-      'display' => 'group',
-      'layout' => 'block',
-      'prefix_label' => 0,
-      'prefix_name' => 1,
-    ),
-    array (
-      'key' => 'field_58e2b11bf0c69',
-      'label' => 'Universal Footer',
-      'name' => 'simulators-parent_footer',
-      'type' => 'clone',
-      'instructions' => '',
-      'required' => 0,
-      'conditional_logic' => 0,
-      'wrapper' => array (
-        'width' => '',
-        'class' => '',
-        'id' => '',
-      ),
-      'clone' => array (
-        0 => 'group_58da81605c4c2',
-        1 => 'group_58da8160620c4',
+        0 => 'group_58da7eb43a340',
       ),
       'display' => 'group',
       'layout' => 'block',
@@ -140,7 +118,7 @@ acf_add_local_field_group(array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-simulators-parent.php',
+        'value' => 'template-simulator-parent.php',
       ),
     ),
   ),

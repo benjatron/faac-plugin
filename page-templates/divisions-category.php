@@ -7,7 +7,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e27dd7abae5',
       'label' => 'Basic Slider',
-      'name' => 'division-category_slider',
+      'name' => 'divisionCategory_slider',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -28,7 +28,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e27dd7abb20',
       'label' => 'Intro Content',
-      'name' => 'division-category_intro',
+      'name' => 'divisionCategory_intro',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -49,7 +49,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e39746e4bf6',
       'label' => 'Category Solutions/Simulators',
-      'name' => 'division-category_options',
+      'name' => 'divisionCategory_options',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -60,7 +60,7 @@ acf_add_local_field_group(array (
         'id' => '',
       ),
       'clone' => array (
-        0 => 'group_58da7eb874581',
+        0 => 'group_58da7eb6784b3',
       ),
       'display' => 'group',
       'layout' => 'block',
@@ -70,7 +70,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e27dd7abb57',
       'label' => 'Secondary Content',
-      'name' => 'division-category_secondary-content',
+      'name' => 'divisionCategory_secondaryContent',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -81,7 +81,7 @@ acf_add_local_field_group(array (
         'id' => '',
       ),
       'clone' => array (
-        0 => 'group_58d98e5e60691',
+        0 => 'group_58d98e060fcd1',
       ),
       'display' => 'group',
       'layout' => 'block',
@@ -91,7 +91,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e39851e4bf7',
       'label' => 'Featured Division Links',
-      'name' => 'division-category_features',
+      'name' => 'divisionCategory_features',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -109,37 +109,13 @@ acf_add_local_field_group(array (
       'prefix_label' => 0,
       'prefix_name' => 1,
     ),
-    array (
-      'key' => 'field_58e398ece4bf8',
-      'label' => 'Footer',
-      'name' => 'division-category_footer',
-      'type' => 'clone',
-      'instructions' => '',
-      'required' => 0,
-      'conditional_logic' => 0,
-      'wrapper' => array (
-        'width' => '',
-        'class' => '',
-        'id' => '',
-      ),
-      'clone' => array (
-        0 => 'group_58da816050824',
-        1 => 'group_58da813eaaaad',
-        2 => 'group_58da81605c4c2',
-        3 => 'group_58da8160620c4',
-      ),
-      'display' => 'group',
-      'layout' => 'block',
-      'prefix_label' => 0,
-      'prefix_name' => 1,
-    ),
   ),
   'location' => array (
     array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-divisions-category.php',
+        'value' => 'template-division-category.php',
       ),
     ),
   ),

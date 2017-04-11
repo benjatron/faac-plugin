@@ -7,7 +7,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e3a1d2c6839',
       'label' => 'Basic Slider',
-      'name' => 'division-index_slider',
+      'name' => 'divisionIndex_slider',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -28,7 +28,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e3a1d2c688e',
       'label' => 'Intro Content',
-      'name' => 'division-index_intro',
+      'name' => 'divisionIndex_intro',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -49,7 +49,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e3a2971656d',
       'label' => 'Division Grid',
-      'name' => 'division-index_divisions',
+      'name' => 'divisionIndex_divisions',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -67,35 +67,13 @@ acf_add_local_field_group(array (
       'prefix_label' => 0,
       'prefix_name' => 1,
     ),
-    array (
-      'key' => 'field_58e3a1d2c6b86',
-      'label' => 'Footer',
-      'name' => 'division-index_footer',
-      'type' => 'clone',
-      'instructions' => '',
-      'required' => 0,
-      'conditional_logic' => 0,
-      'wrapper' => array (
-        'width' => '',
-        'class' => '',
-        'id' => '',
-      ),
-      'clone' => array (
-        0 => 'group_58da81605c4c2',
-        1 => 'group_58da8160620c4',
-      ),
-      'display' => 'group',
-      'layout' => 'block',
-      'prefix_label' => 0,
-      'prefix_name' => 1,
-    ),
   ),
   'location' => array (
     array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-divisions-index.php',
+        'value' => 'template-division-index.php',
       ),
     ),
   ),

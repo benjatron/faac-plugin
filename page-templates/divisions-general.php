@@ -7,7 +7,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e39d075cddb',
       'label' => 'Basic Slider',
-      'name' => 'division-internal_slider',
+      'name' => 'divisionInternal_slider',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -28,7 +28,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e39d80b922c',
       'label' => 'Article',
-      'name' => 'division-internal_article',
+      'name' => 'divisionInternal_article',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -49,7 +49,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e39e4ab922d',
       'label' => 'Video Playlist',
-      'name' => 'division-internal_video',
+      'name' => 'divisionInternal_video',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -70,7 +70,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e39e64b922e',
       'label' => 'Featured Division Links',
-      'name' => 'division-internal_features',
+      'name' => 'divisionInternal_features',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -88,37 +88,13 @@ acf_add_local_field_group(array (
       'prefix_label' => 0,
       'prefix_name' => 1,
     ),
-    array (
-      'key' => 'field_58e39e90b922f',
-      'label' => 'Footer',
-      'name' => 'division-internal_footer',
-      'type' => 'clone',
-      'instructions' => '',
-      'required' => 0,
-      'conditional_logic' => 0,
-      'wrapper' => array (
-        'width' => '',
-        'class' => '',
-        'id' => '',
-      ),
-      'clone' => array (
-        0 => 'group_58da816050824',
-        1 => 'group_58da813eaaaad',
-        2 => 'group_58da81605c4c2',
-        3 => 'group_58da8160620c4',
-      ),
-      'display' => 'group',
-      'layout' => 'block',
-      'prefix_label' => 0,
-      'prefix_name' => 1,
-    ),
   ),
   'location' => array (
     array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-divisions-general.php',
+        'value' => 'template-division-general.php',
       ),
     ),
   ),

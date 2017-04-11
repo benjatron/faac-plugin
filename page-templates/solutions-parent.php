@@ -7,7 +7,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dbc87ab78e1',
       'label' => 'Basic Slider',
-      'name' => 'solutions-parent_slider',
+      'name' => 'solutionsParent_slider',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -28,7 +28,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58dbc87ab794b',
       'label' => 'Intro Content',
-      'name' => 'solutions-parent_intro',
+      'name' => 'solutionsParent_intro',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -49,7 +49,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e2b1e8c7cd2',
       'label' => 'Training Simulators / Solutions',
-      'name' => 'solutions-parent_training',
+      'name' => 'solutionsParent_training',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -70,7 +70,7 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58e2b262c7cd3',
       'label' => 'Featured Simulator / Solution',
-      'name' => 'solutions-parent_feature',
+      'name' => 'solutionsParent_feature',
       'type' => 'clone',
       'instructions' => '',
       'required' => 0,
@@ -88,35 +88,13 @@ acf_add_local_field_group(array (
       'prefix_label' => 0,
       'prefix_name' => 1,
     ),
-    array (
-      'key' => 'field_58e2b288c7cd4',
-      'label' => 'Footer',
-      'name' => 'solutions-parent_footer',
-      'type' => 'clone',
-      'instructions' => '',
-      'required' => 0,
-      'conditional_logic' => 0,
-      'wrapper' => array (
-        'width' => '',
-        'class' => '',
-        'id' => '',
-      ),
-      'clone' => array (
-        0 => 'group_58da81605c4c2',
-        1 => 'group_58da8160620c4',
-      ),
-      'display' => 'group',
-      'layout' => 'block',
-      'prefix_label' => 0,
-      'prefix_name' => 1,
-    ),
   ),
   'location' => array (
     array (
       array (
         'param' => 'page_template',
         'operator' => '==',
-        'value' => 'template-solutions-parent.php',
+        'value' => 'template-solution-parent.php',
       ),
     ),
   ),

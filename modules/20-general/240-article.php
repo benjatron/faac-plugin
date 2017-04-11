@@ -13,8 +13,8 @@ acf_add_local_field_group(array (
       'required' => 0,
       'conditional_logic' => 0,
       'wrapper' => array (
-        'width' => '',
-        'class' => 'article article__headline',
+        'width' => '100',
+        'class' => '',
         'id' => '',
       ),
       'default_value' => '',
@@ -32,8 +32,8 @@ acf_add_local_field_group(array (
       'required' => 0,
       'conditional_logic' => 0,
       'wrapper' => array (
-        'width' => '',
-        'class' => 'article article__body',
+        'width' => '100',
+        'class' => '',
         'id' => '',
       ),
       'default_value' => '',

@@ -191,7 +191,8 @@ if( function_exists('acf_add_local_field_group') ) :
   include_once('modules/20-general/230-feature-block.php');
   include_once('modules/20-general/240-article.php');
   include_once('modules/20-general/250-media-block.php');
-  include_once('modules/20-general/260-link-block_2-column.php');
+  include_once('modules/20-general/260-link-block-feature.php');
+  include_once('modules/20-general/270-feature-text-block.php');
 
   // Simulators and solutions
   include_once('modules/30-options/300-category-heading.php');

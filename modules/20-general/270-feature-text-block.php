@@ -1,32 +1,13 @@
 <?php
 
 acf_add_local_field_group(array (
-  'key' => 'group_58d98e060fcd1',
-  'title' => '210 - Columned Content',
+  'key' => 'group_58ece52cbc9ac',
+  'title' => '270 - Feature Text Block',
   'fields' => array (
     array (
-      'key' => 'field_58dab3b4f5c8e',
-      'label' => 'Headline',
-      'name' => 'columnedContent_headline',
-      'type' => 'text',
-      'instructions' => '',
-      'required' => 0,
-      'conditional_logic' => 0,
-      'wrapper' => array (
-        'width' => '100',
-        'class' => '',
-        'id' => '',
-      ),
-      'default_value' => '',
-      'placeholder' => '',
-      'prepend' => '',
-      'append' => '',
-      'maxlength' => '',
-    ),
-    array (
-      'key' => 'field_58dab3f8f5c8f',
-      'label' => 'Body Content',
-      'name' => 'columnedContent_body',
+      'key' => 'field_58ece52ccbc71',
+      'label' => 'Content',
+      'name' => 'featureText',
       'type' => 'wysiwyg',
       'instructions' => '',
       'required' => 0,

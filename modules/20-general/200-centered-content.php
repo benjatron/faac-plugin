@@ -7,14 +7,14 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58d333b9d9ffb',
       'label' => 'Headline',
-      'name' => 'centered-content_headline',
+      'name' => 'centeredContent_headline',
       'type' => 'text',
       'instructions' => '',
       'required' => 0,
       'conditional_logic' => 0,
       'wrapper' => array (
         'width' => '100',
-        'class' => 'centered-content centered-content__headline',
+        'class' => '',
         'id' => '',
       ),
       'default_value' => '',
@@ -26,14 +26,14 @@ acf_add_local_field_group(array (
     array (
       'key' => 'field_58d333ecd9ffc',
       'label' => 'Body Content',
-      'name' => 'centered-content_body',
+      'name' => 'centeredContent_body',
       'type' => 'wysiwyg',
       'instructions' => '',
       'required' => 0,
       'conditional_logic' => 0,
       'wrapper' => array (
         'width' => '100',
-        'class' => 'centered-content centered-content__body',
+        'class' => '',
         'id' => '',
       ),
       'default_value' => '',

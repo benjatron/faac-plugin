@@ -188,6 +188,7 @@ if( function_exists('acf_add_local_field_group') ) :
   include_once('modules/20-general/200-centered-content.php');
   include_once('modules/20-general/210-columned-content.php');
   include_once('modules/20-general/220-linked-photo-grid.php');
+  include_once('modules/20-general/221-division-logo-grid.php');
   include_once('modules/20-general/230-feature-block.php');
   include_once('modules/20-general/240-article.php');
   include_once('modules/20-general/250-media-block.php');

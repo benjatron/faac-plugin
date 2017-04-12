@@ -281,7 +281,7 @@ acf_add_local_field_group(array (
       'key' => 'field_58eb8d5c7a850',
       'label' => 'Linked Page',
       'name' => 'photoPromo_page',
-      'type' => 'url',
+      'type' => 'page_link',
       'instructions' => 'The page for the photo promo to link to',
       'required' => 0,
       'conditional_logic' => 0,
@@ -290,8 +290,13 @@ acf_add_local_field_group(array (
         'class' => '',
         'id' => '',
       ),
-      'default_value' => '',
-      'placeholder' => '',
+      'post_type' => array (
+      ),
+      'taxonomy' => array (
+      ),
+      'allow_null' => 0,
+      'allow_archives' => 1,
+      'multiple' => 0,
     ),
   ),
   'location' => array (
@@ -404,7 +409,7 @@ acf_add_local_field_group(array (
       'key' => 'field_58eb8ffd0ae22',
       'label' => 'Linked Page',
       'name' => 'news_link',
-      'type' => 'url',
+      'type' => 'page_link',
       'instructions' => 'The location of the page you\'d like to link to',
       'required' => 0,
       'conditional_logic' => 0,
@@ -413,8 +418,13 @@ acf_add_local_field_group(array (
         'class' => '',
         'id' => '',
       ),
-      'default_value' => '',
-      'placeholder' => '',
+      'post_type' => array (
+      ),
+      'taxonomy' => array (
+      ),
+      'allow_null' => 0,
+      'allow_archives' => 1,
+      'multiple' => 0,
     ),
     array (
       'key' => 'field_58eb903e0ae23',
@@ -479,7 +489,7 @@ acf_add_local_field_group(array (
       'key' => 'field_58eb94840ae29',
       'label' => 'Linked Page',
       'name' => 'resources_link',
-      'type' => 'url',
+      'type' => 'page_link',
       'instructions' => 'The location of the page you\'d like to link to',
       'required' => 0,
       'conditional_logic' => 0,
@@ -488,8 +498,13 @@ acf_add_local_field_group(array (
         'class' => '',
         'id' => '',
       ),
-      'default_value' => '',
-      'placeholder' => '',
+      'post_type' => array (
+      ),
+      'taxonomy' => array (
+      ),
+      'allow_null' => 0,
+      'allow_archives' => 1,
+      'multiple' => 0,
     ),
     array (
       'key' => 'field_58eb94750ae27',
@@ -554,7 +569,7 @@ acf_add_local_field_group(array (
       'key' => 'field_58eb94850ae2a',
       'label' => 'Linked Page',
       'name' => 'careers_link',
-      'type' => 'url',
+      'type' => 'page_link',
       'instructions' => 'The location of the page you\'d like to link to',
       'required' => 0,
       'conditional_logic' => 0,
@@ -563,8 +578,13 @@ acf_add_local_field_group(array (
         'class' => '',
         'id' => '',
       ),
-      'default_value' => '',
-      'placeholder' => '',
+      'post_type' => array (
+      ),
+      'taxonomy' => array (
+      ),
+      'allow_null' => 0,
+      'allow_archives' => 1,
+      'multiple' => 0,
     ),
     array (
       'key' => 'field_58eb94770ae28',

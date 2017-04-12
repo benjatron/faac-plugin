@@ -7,49 +7,12 @@
 		"uuidString": "87A28170-5F21-4742-B79B-44BDF559FC24"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
-		"oF": 0
-		},
-	"\/admin\/class-plugin-name-admin.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/admin\/class-plugin-name-admin.php",
-		"oF": 0
-		},
-	"\/admin\/css\/plugin-name-admin.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/admin\/css\/plugin-name-admin-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/admin\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/admin\/index.php",
-		"oF": 0
-		},
-	"\/admin\/js\/plugin-name-admin.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/admin\/js\/plugin-name-admin-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/admin\/partials\/plugin-name-admin-display.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/admin\/partials\/plugin-name-admin-display.php",
 		"oF": 0
 		},
 	"\/faac-extender.php": {
@@ -58,280 +21,10 @@
 		"oAP": "\/faac-extender.php",
 		"oF": 0
 		},
-	"\/field-groups\/divisions.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/divisions.php",
-		"oF": 0
-		},
-	"\/field-groups\/features.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/features.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/10-sliders\/100-basic-slider.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/10-sliders\/100-basic-slider.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/10-sliders\/110-dynamic-slider.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/10-sliders\/110-dynamic-slider.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/20-general\/200-centered-content.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/20-general\/200-centered-content.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/20-general\/210-columned-content.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/20-general\/210-columned-content.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/20-general\/220-linked-photo-grid.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/20-general\/220-linked-photo-grid.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/20-general\/230-feature-block.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/20-general\/230-feature-block.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/20-general\/240-article.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/20-general\/240-article.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/20-general\/250-media-block.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/20-general\/250-media-block.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/20-general\/260-link-block_2-column.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/20-general\/260-link-block_2-column.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/300-category-heading.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/300-category-heading.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/310-category-heading_2-up.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/310-category-heading_2-up.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/320-category-media-block.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/320-category-media-block.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/330-simulator-solution-categories_2-column.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/330-simulator-solution-categories_2-column.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/340-simulator-solution-categories_4-column.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/340-simulator-solution-categories_4-column.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/350-simulator-solution-categories_5-column.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/350-simulator-solution-categories_5-column.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/360-featured-simulator-solution.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/360-featured-simulator-solution.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/370-category-simulators-solutions_3-column.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/370-category-simulators-solutions_3-column.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/380-related-links_2-up.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/380-related-links_2-up.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/30-options\/390-related-links_3-up.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/30-options\/390-related-links_3-up.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/40-divisions\/400-division-summaries_2-column.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/40-divisions\/400-division-summaries_2-column.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/40-divisions\/410-featured-division-simulator-and-solution.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/40-divisions\/410-featured-division-simulator-and-solution.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/40-divisions\/420-division-support-block.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/40-divisions\/420-division-support-block.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/500-simulator-solution-plus-division-promotion.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/500-simulator-solution-plus-division-promotion.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/510-division-promotion.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/510-division-promotion.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/520-call-to-action.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/520-call-to-action.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/530-testimonial.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/530-testimonial.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/540-video-playlist.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/540-video-playlist.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/550-simulator-promotion.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/550-simulator-promotion.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/560-video-promotion.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/560-video-promotion.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/570-photo-promotion.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/570-photo-promotion.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/580-video-plus-photo-promotion.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/580-video-plus-photo-promotion.php",
-		"oF": 0
-		},
-	"\/field-groups\/modules\/50-promotions\/590-promotion-links.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/modules\/50-promotions\/590-promotion-links.php",
-		"oF": 0
-		},
-	"\/field-groups\/simulators.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/simulators.php",
-		"oF": 0
-		},
-	"\/field-groups\/solutions.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/solutions.php",
-		"oF": 0
-		},
-	"\/field-groups\/testimonials.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/testimonials.php",
-		"oF": 0
-		},
-	"\/field-groups\/vehicles.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/field-groups\/vehicles.php",
-		"oF": 0
-		},
-	"\/includes\/class-plugin-name-activator.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/class-plugin-name-activator.php",
-		"oF": 0
-		},
-	"\/includes\/class-plugin-name-deactivator.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/class-plugin-name-deactivator.php",
-		"oF": 0
-		},
-	"\/includes\/class-plugin-name-i18n.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/class-plugin-name-i18n.php",
-		"oF": 0
-		},
-	"\/includes\/class-plugin-name-loader.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/class-plugin-name-loader.php",
-		"oF": 0
-		},
-	"\/includes\/class-plugin-name.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/class-plugin-name.php",
-		"oF": 0
-		},
-	"\/includes\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/includes\/index.php",
-		"oF": 0
-		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
-		"oF": 0
-		},
-	"\/languages\/plugin-name.pot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/languages\/plugin-name.pot",
 		"oF": 0
 		},
 	"\/LICENSE.txt": {
@@ -340,10 +33,214 @@
 		"oAP": "\/LICENSE.txt",
 		"oF": 0
 		},
-	"\/page-templates\/category-child.php": {
+	"\/modules\/10-sliders\/100-basic-slider.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/page-templates\/category-child.php",
+		"oAP": "\/modules\/10-sliders\/100-basic-slider.php",
+		"oF": 0
+		},
+	"\/modules\/10-sliders\/110-dynamic-slider.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/10-sliders\/110-dynamic-slider.php",
+		"oF": 0
+		},
+	"\/modules\/20-general\/200-centered-content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/20-general\/200-centered-content.php",
+		"oF": 0
+		},
+	"\/modules\/20-general\/210-columned-content.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/20-general\/210-columned-content.php",
+		"oF": 0
+		},
+	"\/modules\/20-general\/220-linked-photo-grid.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/20-general\/220-linked-photo-grid.php",
+		"oF": 0
+		},
+	"\/modules\/20-general\/221-division-logo-grid.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/20-general\/221-division-logo-grid.php",
+		"oF": 0
+		},
+	"\/modules\/20-general\/230-feature-block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/20-general\/230-feature-block.php",
+		"oF": 0
+		},
+	"\/modules\/20-general\/240-article.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/20-general\/240-article.php",
+		"oF": 0
+		},
+	"\/modules\/20-general\/250-media-block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/20-general\/250-media-block.php",
+		"oF": 0
+		},
+	"\/modules\/20-general\/260-link-block-feature.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/20-general\/260-link-block-feature.php",
+		"oF": 0
+		},
+	"\/modules\/20-general\/270-feature-text-block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/20-general\/270-feature-text-block.php",
+		"oF": 0
+		},
+	"\/modules\/30-options\/300-category-heading.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/30-options\/300-category-heading.php",
+		"oF": 0
+		},
+	"\/modules\/30-options\/310-category-row.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/30-options\/310-category-row.php",
+		"oF": 0
+		},
+	"\/modules\/30-options\/320-category-detail-block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/30-options\/320-category-detail-block.php",
+		"oF": 0
+		},
+	"\/modules\/30-options\/330-category-feature-block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/30-options\/330-category-feature-block.php",
+		"oF": 0
+		},
+	"\/modules\/30-options\/340-featured-simulator-solution.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/30-options\/340-featured-simulator-solution.php",
+		"oF": 0
+		},
+	"\/modules\/30-options\/350-feature-row.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/30-options\/350-feature-row.php",
+		"oF": 0
+		},
+	"\/modules\/30-options\/360-related-links-block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/30-options\/360-related-links-block.php",
+		"oF": 0
+		},
+	"\/modules\/30-options\/370-category-links-block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/30-options\/370-category-links-block.php",
+		"oF": 0
+		},
+	"\/modules\/40-divisions\/400-division-summaries.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/40-divisions\/400-division-summaries.php",
+		"oF": 0
+		},
+	"\/modules\/40-divisions\/410-division-feature-block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/40-divisions\/410-division-feature-block.php",
+		"oF": 0
+		},
+	"\/modules\/40-divisions\/420-division-support-block.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/40-divisions\/420-division-support-block.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/500-simulator-solution-plus-division-promotion.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/500-simulator-solution-plus-division-promotion.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/510-division-promotion.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/510-division-promotion.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/520-call-to-action.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/520-call-to-action.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/530-testimonial.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/530-testimonial.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/540-video-playlist.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/540-video-playlist.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/550-simulator-promotion.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/550-simulator-promotion.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/560-video-promotion.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/560-video-promotion.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/570-photo-promotion.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/570-photo-promotion.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/580-video-plus-photo-promotion.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/580-video-plus-photo-promotion.php",
+		"oF": 0
+		},
+	"\/modules\/50-promotions\/590-promotion-links.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/modules\/50-promotions\/590-promotion-links.php",
+		"oF": 0
+		},
+	"\/options-pages\/categories.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/options-pages\/categories.php",
+		"oF": 0
+		},
+	"\/options-pages\/divisions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/options-pages\/divisions.php",
+		"oF": 0
+		},
+	"\/options-pages\/theme-settings.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/options-pages\/theme-settings.php",
 		"oF": 0
 		},
 	"\/page-templates\/category-parent.php": {
@@ -430,41 +327,22 @@
 		"oAP": "\/page-templates\/solutions-parent.php",
 		"oF": 0
 		},
-	"\/public\/class-plugin-name-public.php": {
+	"\/post-types\/simulator-fields.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/public\/class-plugin-name-public.php",
+		"oAP": "\/post-types\/simulator-fields.php",
 		"oF": 0
 		},
-	"\/public\/css\/plugin-name-public.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/public\/css\/plugin-name-public-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/public\/index.php": {
+	"\/post-types\/testimonial-fields.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/public\/index.php",
+		"oAP": "\/post-types\/testimonial-fields.php",
 		"oF": 0
 		},
-	"\/public\/js\/plugin-name-public.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/public\/js\/plugin-name-public-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/public\/partials\/plugin-name-public-display.php": {
+	"\/post-types\/testimonial.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/public\/partials\/plugin-name-public-display.php",
+		"oAP": "\/post-types\/testimonial.php",
 		"oF": 0
 		},
 	"\/README.txt": {
@@ -473,10 +351,52 @@
 		"oAP": "\/README.txt",
 		"oF": 0
 		},
-	"\/uninstall.php": {
+	"\/taxonomies\/categories.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/uninstall.php",
+		"oAP": "\/taxonomies\/categories.php",
+		"oF": 0
+		},
+	"\/taxonomies\/client.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/taxonomies\/client.php",
+		"oF": 0
+		},
+	"\/widgets\/contact-info.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/widgets\/contact-info.php",
+		"oF": 0
+		},
+	"\/widgets\/copyright-info.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/widgets\/copyright-info.php",
+		"oF": 0
+		},
+	"\/widgets\/division-logos.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/widgets\/division-logos.php",
+		"oF": 0
+		},
+	"\/widgets\/link-buttons.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/widgets\/link-buttons.php",
+		"oF": 0
+		},
+	"\/widgets\/masthead.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/widgets\/masthead.php",
+		"oF": 0
+		},
+	"\/widgets\/newsletter-signup.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/widgets\/newsletter-signup.php",
 		"oF": 0
 		}
 	},
@@ -1448,6 +1368,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2272,14 +2196,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -2342,7 +2258,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {

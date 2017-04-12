@@ -43,6 +43,7 @@ acf_add_local_field_group(array (
         'id' => '',
       ),
       'choices' => array (
+        'none' => 'None',
         'military' => 'Military',
         'useOfForce' => 'Use of Force',
         'publicSafety' => 'Public Safety',
@@ -51,7 +52,7 @@ acf_add_local_field_group(array (
       ),
       'default_value' => array (
       ),
-      'allow_null' => 1,
+      'allow_null' => 0,
       'multiple' => 0,
       'ui' => 0,
       'ajax' => 0,

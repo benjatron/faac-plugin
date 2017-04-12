@@ -2,7 +2,7 @@
 
 acf_add_local_field_group(array (
   'key' => 'group_58ed23e26fa96',
-  'title' => 'Simulator Description',
+  'title' => 'Simulator/Solution Description',
   'fields' => array (
     array (
       'key' => 'field_58ed246118ffa',
@@ -30,6 +30,13 @@ acf_add_local_field_group(array (
         'param' => 'post_category',
         'operator' => '==',
         'value' => 'category:simulator',
+      ),
+    ),
+    array (
+      array (
+        'param' => 'post_category',
+        'operator' => '==',
+        'value' => 'category:solution',
       ),
     ),
   ),

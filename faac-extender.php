@@ -209,6 +209,7 @@ if( function_exists('acf_add_local_field_group') ) :
   include_once('modules/30-options/320-category-detail-block.php');
   include_once('modules/30-options/330-category-feature-block.php');
   include_once('modules/30-options/340-featured-simulator-solution.php');
+  include_once('modules/30-options/341-main-simulator.php');
   include_once('modules/30-options/350-feature-row.php');
   include_once('modules/30-options/360-related-links-block.php');
   include_once('modules/30-options/370-category-links-block.php');

@@ -68,6 +68,7 @@ acf_add_local_field_group(array (
           'choices' => array (
             'simulators' => 'Simulators',
             'solutions' => 'Solutions',
+            'vehicles' => 'Vehicles',
           ),
           'default_value' => array (
           ),

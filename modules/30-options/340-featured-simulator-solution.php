@@ -45,25 +45,6 @@ acf_add_local_field_group(array (
       'append' => '',
       'maxlength' => '',
     ),
-    array (
-      'key' => 'field_58ecf1f895eb3',
-      'label' => 'Description',
-      'name' => 'featured_description',
-      'type' => 'wysiwyg',
-      'instructions' => '',
-      'required' => 0,
-      'conditional_logic' => 0,
-      'wrapper' => array (
-        'width' => '',
-        'class' => '',
-        'id' => '',
-      ),
-      'default_value' => '',
-      'tabs' => 'all',
-      'toolbar' => 'full',
-      'media_upload' => 0,
-      'delay' => 0,
-    ),
   ),
   'location' => array (
     array (

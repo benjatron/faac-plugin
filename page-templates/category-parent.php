@@ -130,6 +130,27 @@ acf_add_local_field_group(array (
       'prefix_label' => 0,
       'prefix_name' => 1,
     ),
+    array (
+      'key' => 'field_58f11856b36c3',
+      'label' => 'Testimonial',
+      'name' => 'categoryParent_testimonial',
+      'type' => 'clone',
+      'instructions' => '',
+      'required' => 0,
+      'conditional_logic' => 0,
+      'wrapper' => array (
+        'width' => '',
+        'class' => '',
+        'id' => '',
+      ),
+      'clone' => array (
+        0 => 'group_58da816050824',
+      ),
+      'display' => 'group',
+      'layout' => 'block',
+      'prefix_label' => 0,
+      'prefix_name' => 1,
+    ),
   ),
   'location' => array (
     array (

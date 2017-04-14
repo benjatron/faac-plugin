@@ -60,7 +60,7 @@ acf_add_local_field_group(array (
         'id' => '',
       ),
       'clone' => array (
-        0 => 'group_58da7eba98e33',
+        0 => 'group_58f111c4ca272',
       ),
       'display' => 'group',
       'layout' => 'block',

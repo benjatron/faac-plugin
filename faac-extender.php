@@ -218,6 +218,7 @@ if( function_exists('acf_add_local_field_group') ) :
   include_once('modules/40-divisions/400-division-summaries.php');
   include_once('modules/40-divisions/410-division-feature-block.php');
   include_once('modules/40-divisions/420-division-support-block.php');
+  include_once('modules/40-divisions/430-related-division-links.php');
 
   // Promotions
   include_once('modules/50-promotions/500-simulator-solution-plus-division-promotion.php');

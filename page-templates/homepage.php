@@ -63,7 +63,7 @@ acf_add_local_field_group(array (
         0 => 'group_58da7ea1e866f',
       ),
       'display' => 'group',
-      'layout' => 'block',
+      'layout' => 'row',
       'prefix_label' => 0,
       'prefix_name' => 1,
     ),
@@ -142,7 +142,7 @@ acf_add_local_field_group(array (
   ),
   'menu_order' => 0,
   'position' => 'normal',
-  'style' => 'default',
+  'style' => 'seamless',
   'label_placement' => 'top',
   'instruction_placement' => 'label',
   'hide_on_screen' => array (

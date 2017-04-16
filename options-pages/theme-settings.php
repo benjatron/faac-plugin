@@ -324,7 +324,7 @@ acf_add_local_field_group(array (
 // Video Promotion options page
 acf_add_local_field_group(array (
   'key' => 'group_58eb8db63711e',
-  'title' => 'Video Promotion',
+  'title' => 'Theme Settings - Video Promotion',
   'fields' => array (
     array (
       'key' => 'field_58eb8db64b02c',
@@ -349,7 +349,7 @@ acf_add_local_field_group(array (
       'key' => 'field_58eb8db64b1f0',
       'label' => 'Linked Video',
       'name' => 'videoPromo_link',
-      'type' => 'url',
+      'type' => 'oembed',
       'instructions' => 'The source URL of the video',
       'required' => 0,
       'conditional_logic' => 0,
@@ -358,8 +358,8 @@ acf_add_local_field_group(array (
         'class' => '',
         'id' => '',
       ),
-      'default_value' => '',
-      'placeholder' => '',
+      'width' => '',
+      'height' => '',
     ),
   ),
   'location' => array (

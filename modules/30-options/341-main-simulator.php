@@ -8,7 +8,7 @@ acf_add_local_field_group(array (
       'key' => 'field_58f10d1f1c5c0',
       'label' => 'Simulator',
       'name' => 'mainSimulator_page',
-      'type' => 'page_link',
+      'type' => 'post_object',
       'instructions' => 'The simulator to feature and link to',
       'required' => 0,
       'conditional_logic' => 0,

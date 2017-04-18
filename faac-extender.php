@@ -134,7 +134,7 @@ if( function_exists('acf_add_options_page') ) :
   endif;
 endif;
 
-
+/*
 // Adds field groups for options pages
 if( function_exists('acf_add_local_field_group') ) :
   include_once('options-pages/theme-settings.php');
@@ -167,7 +167,7 @@ endif;
 if ( ! function_exists('testimonial_post_type') ) :
   include_once('post-types/testimonial.php');
 endif;
-
+/*
 // Adds the custom fields for custom post types
 if( function_exists('acf_add_local_field_group') ) :
   include_once('post-types/testimonial-fields.php');
@@ -184,7 +184,7 @@ endif;
 /*
  * #CUSTOM FIELDS
  */
-
+/*
 // Adds field groups for design modules
 if( function_exists('acf_add_local_field_group') ) :
 
@@ -237,7 +237,7 @@ endif;
 /*
  * #PAGE TEMPLATES
  */
-
+/*
 // Adds page templates to use with the FAAC theme
 if( function_exists('acf_add_local_field_group') ) :
   // Homepage

@@ -134,14 +134,6 @@ if( function_exists('acf_add_options_page') ) :
   endif;
 endif;
 
-/*
-// Adds field groups for options pages
-if( function_exists('acf_add_local_field_group') ) :
-  include_once('options-pages/theme-settings.php');
-  include_once('options-pages/divisions.php');
-  include_once('options-pages/categories.php');
-endif;
-
 
 
 /*
@@ -166,103 +158,4 @@ endif;
 // Registers the custom post types
 if ( ! function_exists('testimonial_post_type') ) :
   include_once('post-types/testimonial.php');
-endif;
-/*
-// Adds the custom fields for custom post types
-if( function_exists('acf_add_local_field_group') ) :
-  include_once('post-types/testimonial-fields.php');
-endif;
-
-// Adds custom simulator description
-if( function_exists('acf_add_local_field_group') ) :
-  include_once('post-types/simulator-fields.php');
-endif;
-
-
-
-
-/*
- * #CUSTOM FIELDS
- */
-/*
-// Adds field groups for design modules
-if( function_exists('acf_add_local_field_group') ) :
-
-  // Sliders
-  include_once('modules/10-sliders/100-basic-slider.php');
-  include_once('modules/10-sliders/110-dynamic-slider.php');
-
-  // General content
-  include_once('modules/20-general/200-centered-content.php');
-  include_once('modules/20-general/210-columned-content.php');
-  include_once('modules/20-general/220-linked-photo-grid.php');
-  include_once('modules/20-general/221-division-logo-grid.php');
-  include_once('modules/20-general/230-feature-block.php');
-  include_once('modules/20-general/240-article.php');
-  include_once('modules/20-general/250-media-block.php');
-  include_once('modules/20-general/260-link-block-feature.php');
-  include_once('modules/20-general/270-feature-text-block.php');
-
-  // Simulators and solutions
-  include_once('modules/30-options/300-category-heading.php');
-  include_once('modules/30-options/310-category-row.php');
-  include_once('modules/30-options/320-category-detail-block.php');
-  include_once('modules/30-options/330-category-feature-block.php');
-  include_once('modules/30-options/340-featured-simulator-solution.php');
-  include_once('modules/30-options/341-main-simulator.php');
-  include_once('modules/30-options/350-feature-row.php');
-  include_once('modules/30-options/360-related-links-block.php');
-  include_once('modules/30-options/370-category-links-block.php');
-
-  // Divisions
-  include_once('modules/40-divisions/400-division-summaries.php');
-  include_once('modules/40-divisions/410-division-feature-block.php');
-  include_once('modules/40-divisions/420-division-support-block.php');
-  include_once('modules/40-divisions/430-related-division-links.php');
-
-  // Promotions
-  include_once('modules/50-promotions/500-simulator-solution-plus-division-promotion.php');
-  include_once('modules/50-promotions/510-division-promotion.php');
-  include_once('modules/50-promotions/520-call-to-action.php');
-  include_once('modules/50-promotions/530-testimonial.php');
-  include_once('modules/50-promotions/540-video-playlist.php');
-  include_once('modules/50-promotions/550-simulator-promotion.php');
-  include_once('modules/50-promotions/560-video-promotion.php');
-  include_once('modules/50-promotions/570-photo-promotion.php');
-  include_once('modules/50-promotions/580-video-plus-photo-promotion.php');
-  include_once('modules/50-promotions/590-promotion-links.php');
-endif;
-
-
-/*
- * #PAGE TEMPLATES
- */
-/*
-// Adds page templates to use with the FAAC theme
-if( function_exists('acf_add_local_field_group') ) :
-  // Homepage
-  include_once('page-templates/homepage.php');
-
-  // Simulator pages
-  include_once('page-templates/simulators-parent.php');
-  include_once('page-templates/simulators-child.php');
-
-  // Solutions pages
-  include_once('page-templates/solutions-parent.php');
-  include_once('page-templates/solutions-child.php');
-
-  // Category pages
-  include_once('page-templates/category-parent.php');
-
-  // Content pages
-  include_once('page-templates/content-general.php');
-  include_once('page-templates/content-landing-page.php');
-  include_once('page-templates/content-news.php');
-
-  // Divisions pages
-  include_once('page-templates/divisions-index.php');
-  include_once('page-templates/divisions-parent.php');
-  include_once('page-templates/divisions-general.php');
-  include_once('page-templates/divisions-news.php');
-  include_once('page-templates/divisions-category.php');
 endif;

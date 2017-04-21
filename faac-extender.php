@@ -152,11 +152,11 @@ if ( ! function_exists( 'page_category' ) ) :
 endif;
 
 if ( ! function_exists( 'division_taxonomy' ) ) :
-  include_once('taxonomies/categories.php');
+  include_once('taxonomies/divisions.php');
 endif;
 
 if ( ! function_exists( 'sector_taxonomy' ) ) :
-  include_once('taxonomies/categories.php');
+  include_once('taxonomies/sectors.php');
 endif;
 
 

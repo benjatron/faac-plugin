@@ -134,6 +134,8 @@ if( function_exists('acf_add_options_page') ) :
   endif;
 endif;
 
+// Stores settings on options pages
+include_once('theme-options/theme-settings.php');
 
 
 /*
@@ -149,6 +151,13 @@ if ( ! function_exists( 'page_category' ) ) :
   include_once('taxonomies/categories.php');
 endif;
 
+if ( ! function_exists( 'division_taxonomy' ) ) :
+  include_once('taxonomies/categories.php');
+endif;
+
+if ( ! function_exists( 'sector_taxonomy' ) ) :
+  include_once('taxonomies/categories.php');
+endif;
 
 
 /*

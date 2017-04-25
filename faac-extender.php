@@ -58,6 +58,11 @@ if( function_exists('acf_add_options_page') ) :
         'menu_title'  => 'Footer Promotions',
         'parent_slug' => 'theme-settings',
       ));
+      acf_add_options_sub_page(array(
+        'page_title'  => 'Sectors',
+        'menu_title'  => 'Sectors',
+        'parent_slug' => 'theme-settings',
+      ));
 
     // Adds the Divisions settings pages and subpages
     acf_add_options_page(array(

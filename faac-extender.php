@@ -3,7 +3,7 @@
 Plugin Name: FAAC Extended
 Plugin URI: http://designfwd.com/
 Description: This plugin adds functionality required to fully take advantage of the FAAC Incorporated theme.
-Version: 0.4
+Version: 0.5
 Author: FWD Creative, LLC
 Author URI: http://designfwd.com/
 
@@ -139,8 +139,12 @@ if( function_exists('acf_add_options_page') ) :
   endif;
 endif;
 
-// Stores settings on options pages
-include_once('theme-options/theme-settings.php');
+// Adds ACF design modules to back end
+if( function_exists('acf_add_local_field_group') ):
+  include_once('modules/modules.php');
+  include_once('page-templates/page-templates.php');
+  include_once('theme-settings/theme-settings.php');
+endif;
 
 
 /*

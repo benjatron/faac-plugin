@@ -326,7 +326,7 @@ Oviedo, FL 32765',
       array (
         'param' => 'widget',
         'operator' => '==',
-        'value' => 'acf_widget_1753',
+        'value' => 'acf_widget_contact_info_blocks',
       ),
     ),
   ),

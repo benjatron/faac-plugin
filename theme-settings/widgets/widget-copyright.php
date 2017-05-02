@@ -96,7 +96,7 @@ acf_add_local_field_group(array (
       array (
         'param' => 'widget',
         'operator' => '==',
-        'value' => 'acf_widget_1754',
+        'value' => 'acf_widget_copyright_footer',
       ),
     ),
   ),

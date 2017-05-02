@@ -59,7 +59,7 @@ acf_add_local_field_group(array (
       array (
         'param' => 'widget',
         'operator' => '==',
-        'value' => 'acf_widget_1752',
+        'value' => 'acf_widget_division_logo_grid',
       ),
     ),
   ),

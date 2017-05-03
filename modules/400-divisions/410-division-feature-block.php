@@ -27,7 +27,7 @@ acf_add_local_field_group(array (
       'key' => 'field_58e264eff1704',
       'label' => 'Featured Division Solution Page',
       'name' => 'divisionFeature_solution',
-      'type' => 'relationship_multisite',
+      'type' => 'post_object',
       'instructions' => '',
       'required' => 0,
       'conditional_logic' => 0,
@@ -36,27 +36,20 @@ acf_add_local_field_group(array (
         'class' => '',
         'id' => '',
       ),
-      'site' => 1,
-      'filters' => array (
-        0 => 'search',
-        1 => 'post_type',
-        2 => 'taxonomy',
-      ),
-      'elements' => array (
-        0 => 'featured_image',
-      ),
-      'max' => 1,
-      'return_format' => 'object',
       'post_type' => array (
       ),
       'taxonomy' => array (
       ),
+      'allow_null' => 0,
+      'multiple' => 0,
+      'return_format' => 'object',
+      'ui' => 1,
     ),
     array (
       'key' => 'field_58ecf87b77f43',
       'label' => 'Featured Division Simulator Page',
       'name' => 'divisionFeature_simulator',
-      'type' => 'relationship_multisite',
+      'type' => 'post_object',
       'instructions' => '',
       'required' => 0,
       'conditional_logic' => 0,
@@ -65,21 +58,14 @@ acf_add_local_field_group(array (
         'class' => '',
         'id' => '',
       ),
-      'site' => 1,
-      'filters' => array (
-        0 => 'search',
-        1 => 'post_type',
-        2 => 'taxonomy',
-      ),
-      'elements' => array (
-        0 => 'featured_image',
-      ),
-      'max' => 1,
-      'return_format' => 'object',
       'post_type' => array (
       ),
       'taxonomy' => array (
       ),
+      'allow_null' => 0,
+      'multiple' => 0,
+      'return_format' => 'object',
+      'ui' => 1,
     ),
   ),
   'location' => array (

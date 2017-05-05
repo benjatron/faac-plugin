@@ -89,8 +89,8 @@ acf_add_local_field_group(array (
           'key' => 'field_590c957d2a7dc',
           'label' => 'Slide Link',
           'name' => 'slider_slideLink',
-          'type' => 'true_false',
-          'instructions' => '',
+          'type' => 'select',
+          'instructions' => 'How should this slide be linked?',
           'required' => 0,
           'conditional_logic' => 0,
           'wrapper' => array (
@@ -98,16 +98,78 @@ acf_add_local_field_group(array (
             'class' => '',
             'id' => '',
           ),
-          'message' => 'Should this slide be linked?',
-          'default_value' => 0,
+          'choices' => array (
+            'none' => 'Don\'t add link',
+            'popup-vimeo' => 'Link to Vimeo',
+            'inner-page' => 'Link to another FAAC page',
+            'outside-link' => 'Link to a page outside of FAAC',
+          ),
+          'default_value' => array (
+          ),
+          'allow_null' => 0,
+          'multiple' => 0,
           'ui' => 0,
-          'ui_on_text' => '',
-          'ui_off_text' => '',
+          'ajax' => 0,
+          'return_format' => 'array',
+          'placeholder' => '',
+        ),
+        array (
+          'key' => 'field_590c9d91948de',
+          'label' => 'Vimeo Link',
+          'name' => 'slider_vimeoLink',
+          'type' => 'url',
+          'instructions' => 'The URL of the Vimeo video to link to',
+          'required' => 0,
+          'conditional_logic' => array (
+            array (
+              array (
+                'field' => 'field_590c957d2a7dc',
+                'operator' => '==',
+                'value' => 'popup-vimeo',
+              ),
+            ),
+          ),
+          'wrapper' => array (
+            'width' => '',
+            'class' => '',
+            'id' => '',
+          ),
+          'default_value' => '',
+          'placeholder' => '',
+        ),
+        array (
+          'key' => 'field_590c9dfa948df',
+          'label' => 'Page Link',
+          'name' => 'slider_pageLink',
+          'type' => 'page_link',
+          'instructions' => 'The page to link to',
+          'required' => 0,
+          'conditional_logic' => array (
+            array (
+              array (
+                'field' => 'field_590c957d2a7dc',
+                'operator' => '==',
+                'value' => 'inner-page',
+              ),
+            ),
+          ),
+          'wrapper' => array (
+            'width' => '',
+            'class' => '',
+            'id' => '',
+          ),
+          'post_type' => array (
+          ),
+          'taxonomy' => array (
+          ),
+          'allow_null' => 0,
+          'allow_archives' => 1,
+          'multiple' => 0,
         ),
         array (
           'key' => 'field_590c95ec2a7dd',
-          'label' => 'Link URL',
-          'name' => 'slider_linkURL',
+          'label' => 'Outside Link',
+          'name' => 'slider_outsideLink',
           'type' => 'url',
           'instructions' => 'The URL (webpage, video, etc.) to link to',
           'required' => 0,
@@ -116,7 +178,7 @@ acf_add_local_field_group(array (
               array (
                 'field' => 'field_590c957d2a7dc',
                 'operator' => '==',
-                'value' => '1',
+                'value' => 'outside-link',
               ),
             ),
           ),
@@ -140,7 +202,21 @@ acf_add_local_field_group(array (
               array (
                 'field' => 'field_590c957d2a7dc',
                 'operator' => '==',
-                'value' => '1',
+                'value' => 'popup-vimeo',
+              ),
+            ),
+            array (
+              array (
+                'field' => 'field_590c957d2a7dc',
+                'operator' => '==',
+                'value' => 'inner-page',
+              ),
+            ),
+            array (
+              array (
+                'field' => 'field_590c957d2a7dc',
+                'operator' => '==',
+                'value' => 'outside-link',
               ),
             ),
           ),

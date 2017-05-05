@@ -6,7 +6,7 @@ acf_add_local_field_group(array (
   'fields' => array (
     array (
       'key' => 'field_58e39fc69f1c1',
-      'label' => 'Basic Slider',
+      'label' => 'Dynamic Slider',
       'name' => 'divisionParent_slider',
       'type' => 'clone',
       'instructions' => '',
@@ -18,7 +18,7 @@ acf_add_local_field_group(array (
         'id' => '',
       ),
       'clone' => array (
-        0 => 'group_58d31322a60eb',
+        0 => 'group_58d3f05fbacaf',
       ),
       'display' => 'group',
       'layout' => 'block',

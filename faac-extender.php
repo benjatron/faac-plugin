@@ -140,11 +140,11 @@ if( function_exists('acf_add_options_page') ) :
 endif;
 
 // Adds ACF design modules to back end
-if( function_exists('acf_add_local_field_group') ):
-  include_once('modules/modules.php');
-  include_once('page-templates/page-templates.php');
-  include_once('theme-settings/theme-settings.php');
-endif;
+// if( function_exists('acf_add_local_field_group') ):
+//   include_once('modules/modules.php');
+//   include_once('page-templates/page-templates.php');
+//   include_once('theme-settings/theme-settings.php');
+// endif;
 
 
 /*

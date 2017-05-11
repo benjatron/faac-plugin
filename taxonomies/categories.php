@@ -33,7 +33,7 @@ function page_category() {
         'show_in_nav_menus'          => true,
         'show_tagcloud'              => true,
     );
-    register_taxonomy( 'category', array( 'post', 'page' ), $args );
+    register_taxonomy( 'category', array( 'post', 'page', 'attachment' ), $args );
 
 }
 add_action( 'init', 'page_category', 0 );

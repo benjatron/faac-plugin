@@ -33,7 +33,7 @@ function division_taxonomy() {
         'show_in_nav_menus'          => true,
         'show_tagcloud'              => true,
     );
-    register_taxonomy( 'division', array( 'post', 'page', 'testimonial', 'attachment' ), $args );
+    register_taxonomy( 'division', array( 'page', 'testimonial', 'attachment' ), $args );
 
 }
 add_action( 'init', 'division_taxonomy', 0 );

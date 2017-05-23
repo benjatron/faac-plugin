@@ -33,7 +33,7 @@ function sector_taxonomy() {
         'show_in_nav_menus'          => true,
         'show_tagcloud'              => true,
     );
-    register_taxonomy( 'sector', array( 'post', 'page', 'testimonial', 'attachment' ), $args );
+    register_taxonomy( 'sector', array( 'page', 'testimonial', 'attachment' ), $args );
 
 }
 add_action( 'init', 'sector_taxonomy', 0 );

@@ -140,7 +140,7 @@ if( function_exists('acf_add_options_page') ) :
 endif;
 
 // Adds ACF Field Groups to back end
-require('custom-fields/acf-field-groups.php');
+require('field-groups/acf-field-groups.php');
 
 
 /*

@@ -16,7 +16,7 @@ if( function_exists('acf_add_local_field_group') ):
   require('200-general/220-linked-photo-grid.php');
   require('200-general/221-division-logo-grid.php');
   require('200-general/230-inner-feature.php');
-  require('200-general/240-article');
+  require('200-general/240-article.php');
   require('200-general/250-media-block.php');
   require('200-general/260-link-block-feature.php');
   require('200-general/270-feature-text-block.php');
@@ -40,7 +40,7 @@ if( function_exists('acf_add_local_field_group') ):
   require('400-divisions/440-division-feature-row.php');
 
   // 500 - Promotion Modules
-  require('500-promotions/500-double-promotions.php');
+  require('500-promotions/500-double-promotion.php');
   require('500-promotions/510-division-promotion.php');
   require('500-promotions/520-call-to-action.php');
   require('500-promotions/530-testimonial.php');
@@ -79,18 +79,18 @@ if( function_exists('acf_add_local_field_group') ):
   require('700-settings/720-category-settings/725-research.php');
 
   // 800 - General Content Page Templates
-  require('800/content-pages/800-homepage.php');
-  require('800/content-pages/810-simulators-parent.php');
-  require('800/content-pages/820-solutions-parent.php');
-  require('800/content-pages/830-category-parent.php');
-  require('800/content-pages/840-solutions-child.php');
-  require('800/content-pages/842-simulations-child.php');
-  require('800/content-pages/850-content-general.php');
-  require('800/content-pages/860-content-news.php');
-  require('800/content-pages/861-content-videos.php');
-  require('800/content-pages/862-content-resources.php');
-  require('800/content-pages/863-content-testimonials.php');
-  require('800/content-pages/870-content-landing.php');
+  require('800-content-pages/800-homepage.php');
+  require('800-content-pages/810-simulators-parent.php');
+  require('800-content-pages/820-solutions-parent.php');
+  require('800-content-pages/830-category-parent.php');
+  require('800-content-pages/840-solutions-child.php');
+  require('800-content-pages/842-simulations-child.php');
+  require('800-content-pages/850-content-general.php');
+  require('800-content-pages/860-content-news.php');
+  require('800-content-pages/861-content-videos.php');
+  require('800-content-pages/862-content-resources.php');
+  require('800-content-pages/863-content-testimonials.php');
+  require('800-content-pages/870-content-landing.php');
 
   // 900 - Division Page Templates
   require('900-division-templates/910-division-index.php');

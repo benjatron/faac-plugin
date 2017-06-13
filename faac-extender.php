@@ -3,7 +3,7 @@
 Plugin Name: FAAC Extended
 Plugin URI: http://designfwd.com/
 Description: This plugin adds functionality required to fully take advantage of the FAAC Incorporated theme.
-Version: 0.5
+Version: 0.8
 Author: FWD Creative, LLC
 Author URI: http://designfwd.com/
 
@@ -139,33 +139,26 @@ if( function_exists('acf_add_options_page') ) :
   endif;
 endif;
 
-// Adds ACF design modules to back end
-// if( function_exists('acf_add_local_field_group') ):
-//   include_once('modules/modules.php');
-//   include_once('page-templates/page-templates.php');
-//   include_once('theme-settings/theme-settings.php');
-// endif;
+// Adds ACF Field Groups to back end
+require('custom-fields/acf-field-groups.php');
 
 
 /*
  * #TAXONOMIES
  */
 
-// Registers the custom taxonomies
+// Registers custom taxonomies
 if ( ! function_exists( 'client_taxonomy' ) ) :
-  include_once('taxonomies/client.php');
+  require('taxonomies/client.php');
 endif;
-
 if ( ! function_exists( 'page_category' ) ) :
-  include_once('taxonomies/categories.php');
+  require('taxonomies/categories.php');
 endif;
-
 if ( ! function_exists( 'division_taxonomy' ) ) :
-  include_once('taxonomies/divisions.php');
+  require('taxonomies/divisions.php');
 endif;
-
 if ( ! function_exists( 'sector_taxonomy' ) ) :
-  include_once('taxonomies/sectors.php');
+  require('taxonomies/sectors.php');
 endif;
 
 
@@ -175,5 +168,31 @@ endif;
 
 // Registers the custom post types
 if ( ! function_exists('testimonial_post_type') ) :
-  include_once('post-types/testimonial.php');
+  require('post-types/testimonial.php');
 endif;
+
+
+/*
+ * #VIMEO LIBRARY
+ */
+
+// Loads Vimeo library
+require('vendor/vimeo-php/autoload.php');
+
+// Sets client ID, client secret
+$client_id = get_field('faac_vimeoClientID', 'option');
+$client_secret = get_field('faac_vimeoClientSecret', 'option');
+
+$vimeo_lib = new \Vimeo\Vimeo($client_id, $client_secret);
+// scope is an array of permissions your token needs to access. You can read more at https://developer.vimeo.com/api/authentication#supported-scopes
+$token = $vimeo_lib->clientCredentials(scope);
+
+// For Testing:
+// usable access token
+// var_dump($token['body']['access_token']);
+
+// accepted scopes
+// var_dump($token['body']['scope']);
+
+// use the token
+$vimeo_lib->setToken($token['body']['access_token']);

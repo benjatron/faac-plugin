@@ -212,3 +212,63 @@ function faac_password_form() {
    return $o;
 }
 add_filter( 'the_password_form', 'faac_password_form' );
+
+
+/*
+ * #USER ROLES
+ */
+add_role(
+  'faac_divisionAuthor_faacCommercial',
+  __( 'Division Author - FAAC Commercial' ),
+  array(
+    'read'                    => true,
+    'edit_published_posts'    => true,
+    'upload_files'            => true,
+    'publish_posts'           => true,
+    'delete_published_posts'  => true,
+    'edit_posts'              => true,
+    'delete_posts'            => false,
+   )
+);
+
+add_role(
+  'faac_divisionAuthor_faacMilitary',
+  __( 'Division Author - FAAC Military' ),
+  array(
+    'read'                    => true,
+    'edit_published_posts'    => true,
+    'upload_files'            => true,
+    'publish_posts'           => true,
+    'delete_published_posts'  => true,
+    'edit_posts'              => true,
+    'delete_posts'            => false,
+   )
+);
+
+add_role(
+  'faac_divisionAuthor_miloRange',
+  __( 'Division Author - MILO Range' ),
+  array(
+    'read'                    => true,
+    'edit_published_posts'    => true,
+    'upload_files'            => true,
+    'publish_posts'           => true,
+    'delete_published_posts'  => true,
+    'edit_posts'              => true,
+    'delete_posts'            => false,
+   )
+);
+
+add_role(
+  'faac_divisionAuthor_rti',
+  __( 'Division Author - Realtime Technologies' ),
+  array(
+    'read'                    => true,
+    'edit_published_posts'    => true,
+    'upload_files'            => true,
+    'publish_posts'           => true,
+    'delete_published_posts'  => true,
+    'edit_posts'              => true,
+    'delete_posts'            => false,
+   )
+);

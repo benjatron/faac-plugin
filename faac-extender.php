@@ -173,32 +173,6 @@ endif;
 
 
 /*
- * #VIMEO LIBRARY
- */
-
-// Loads Vimeo library
-require('vendor/vimeo-php/autoload.php');
-
-// Sets client ID, client secret
-$client_id = get_field('faac_vimeoClientID', 'option');
-$client_secret = get_field('faac_vimeoClientSecret', 'option');
-
-$vimeo_lib = new \Vimeo\Vimeo($client_id, $client_secret);
-// scope is an array of permissions your token needs to access. You can read more at https://developer.vimeo.com/api/authentication#supported-scopes
-$token = $vimeo_lib->clientCredentials(scope);
-
-// For Testing:
-// usable access token
-// var_dump($token['body']['access_token']);
-
-// accepted scopes
-// var_dump($token['body']['scope']);
-
-// use the token
-$vimeo_lib->setToken($token['body']['access_token']);
-
-
-/*
  * #PASSWORD FORM
  */
 function faac_password_form() {
@@ -217,66 +191,77 @@ add_filter( 'the_password_form', 'faac_password_form' );
 /*
  * #USER ROLES
  */
-add_role(
-  'faac_divisionAuthor_faacCommercial',
-  __( 'Division Author - FAAC Commercial' ),
-  array(
-    'read'                    => true,
-    'edit_published_posts'    => true,
-    'upload_files'            => true,
-    'publish_posts'           => true,
-    'delete_published_posts'  => true,
-    'edit_posts'              => true,
-    'delete_posts'            => false,
-   )
-);
 
-add_role(
-  'faac_divisionAuthor_faacMilitary',
-  __( 'Division Author - FAAC Military' ),
-  array(
-    'read'                    => true,
-    'edit_published_posts'    => true,
-    'upload_files'            => true,
-    'publish_posts'           => true,
-    'delete_published_posts'  => true,
-    'edit_posts'              => true,
-    'delete_posts'            => false,
-   )
-);
+  add_role(
+    'faac_divisionAuthor_faacCommercial',
+    __( 'Division Author - FAAC Commercial' ),
+    array(
+      'read'                    => true,
+      'edit_published_posts'    => true,
+      'upload_files'            => true,
+      'publish_posts'           => true,
+      'delete_published_posts'  => true,
+      'edit_posts'              => false,
+      'delete_posts'            => false,
+     )
+  );
 
-add_role(
-  'faac_divisionAuthor_miloRange',
-  __( 'Division Author - MILO Range' ),
-  array(
-    'read'                    => true,
-    'edit_published_posts'    => true,
-    'upload_files'            => true,
-    'publish_posts'           => true,
-    'delete_published_posts'  => true,
-    'edit_posts'              => true,
-    'delete_posts'            => false,
-   )
-);
+  add_role(
+    'faac_divisionAuthor_faacMilitary',
+    __( 'Division Author - FAAC Military' ),
+    array(
+      'read'                    => true,
+      'edit_published_posts'    => true,
+      'upload_files'            => true,
+      'publish_posts'           => true,
+      'delete_published_posts'  => true,
+      'edit_posts'              => false,
+      'delete_posts'            => false,
+     )
+  );
 
-add_role(
-  'faac_divisionAuthor_rti',
-  __( 'Division Author - Realtime Technologies' ),
-  array(
-    'read'                    => true,
-    'edit_published_posts'    => true,
-    'upload_files'            => true,
-    'publish_posts'           => true,
-    'delete_published_posts'  => true,
-    'edit_posts'              => true,
-    'delete_posts'            => false,
-   )
-);
+  add_role(
+    'faac_divisionAuthor_miloRange',
+    __( 'Division Author - MILO Range' ),
+    array(
+      'read'                    => true,
+      'edit_published_posts'    => true,
+      'upload_files'            => true,
+      'publish_posts'           => true,
+      'delete_published_posts'  => true,
+      'edit_posts'              => false,
+      'delete_posts'            => false,
+     )
+  );
 
-add_role(
-  'faac_humanResources',
-  __( 'Human Resources Manager' ),
-  array(
-    'read'                    => true,
-  )
-);
+  add_role(
+    'faac_divisionAuthor_rti',
+    __( 'Division Author - Realtime Technologies' ),
+    array(
+      'read'                    => true,
+      'edit_published_posts'    => true,
+      'upload_files'            => true,
+      'publish_posts'           => true,
+      'delete_published_posts'  => true,
+      'edit_posts'              => false,
+      'delete_posts'            => false,
+     )
+  );
+
+  add_role(
+    'faac_humanResources',
+    __( 'Human Resources Manager' ),
+    array(
+      'read'                    => true,
+      'delete_job_applications' => true,
+      'delete_others_job_applications'  => true,
+      'delete_private_job_applications' => true,
+      'delete_published_job_applications' => true,
+      'edit_job_applications' => true,
+      'edit_others_job_applications' => true,
+      'edit_private_job_applications' => true,
+      'edit_published_job_applications' => true,
+      'publish_job_applications' => true,
+      'read_private_job_applications' => true
+    )
+  );

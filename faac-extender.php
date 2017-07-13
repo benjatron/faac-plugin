@@ -272,3 +272,11 @@ add_role(
     'delete_posts'            => false,
    )
 );
+
+add_role(
+  'faac_humanResources',
+  __( 'Human Resources Manager' ),
+  array(
+    'read'                    => true,
+  )
+);

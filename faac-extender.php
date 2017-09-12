@@ -135,6 +135,11 @@ if( function_exists('acf_add_options_page') ) :
         'menu_title'  => 'Research',
         'parent_slug' => 'category-settings',
       ));
+      acf_add_options_sub_page(array(
+        'page_title'  => 'Maritime',
+        'menu_title'  => 'Maritime',
+        'parent_slug' => 'category-settings',
+      ));
 
   endif;
 endif;
